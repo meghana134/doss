@@ -1,0 +1,267 @@
+.login a{
+    color: blue;
+    border: 1px solid blue;
+    background-color: white;
+    height: 25px;
+    width: 70px;
+    position: absolute;
+    top: 9px;
+    text-decoration: none;
+    font-size: 13px;
+    border-radius: 5px;
+    left: 1097px;
+}
+.signup a{
+    color: white;
+    border: 1px solid blue;
+    background-color: blue;
+    height: 25px;
+    width: 70px;
+    position: absolute;
+    top: 9px;
+    text-decoration: none;
+    font-size: 13px;
+    border-radius: 5px;
+    left: 1197px;
+}
+.nav-wrapper {
+    width: 300px;
+    margin: 100px auto;
+    text-align: center;
+}
+.sl-nav {
+    display: inline;
+}
+.sl-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    display: inline-block;
+}
+.sl-nav li {
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+.sl-nav li ul {
+    display: none;
+}
+.sl-nav li:hover ul {
+    position: absolute;
+    top: 29px;
+    right: -15px;
+    display: block;
+    background: #fff;
+    width: 120px;
+    padding-top: 0px;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.sl-nav li:hover .triangle {
+    position: absolute;
+    top: 15px;
+    right: -10px;
+    z-index: 10;
+    height: 14px;
+    overflow: hidden;
+    width: 30px;
+    background: transparent;
+}
+
+.sl-nav li ul li {
+    position: relative;
+    text-align: left;
+    background: transparent;
+    padding: 15px 15px;
+    padding-bottom: 0;
+    z-index: 2;
+    font-size: 15px;
+    color: #3c3c3c;
+}
+.sl-nav li ul li:last-of-type {
+    padding-bottom: 15px;
+}
+.sl-nav li ul li span {
+    padding-left: 5px;
+}
+.sl-nav li ul li span:hover, .sl-nav li ul li span.active {
+    color: #146c78;
+}
+
+h1 {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 60px;
+    line-height: 70px;
+    font-family: 'roboto', sans-serif;
+  }
+  #container {
+    margin: 0 auto;
+    max-width: 890px;
+  }
+  p { text-align: center; }
+   .toggle, [id^=drop] {
+   display: none;
+  }
+  nav {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    position: absolute;
+    top: 63px;
+    left: 255px;
+  }
+  nav img{
+      position: absolute;
+      margin-left: -615px;
+      top: 9px;
+  }
+  #logo {
+    display: block;
+    padding: 0 30px;
+    float: left;
+    font-size: 20px;
+    line-height: 60px;
+  }
+  
+  nav:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  nav ul {
+    float: left;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+  }
+  
+  nav ul li {
+    margin: 0px;
+    display: inline-block;
+    float: left;
+    background-color: white;
+  }
+  
+  nav a {
+    display: block;
+    padding: 0 20px;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    font-size: 20px;
+    line-height: 60px;
+    text-decoration: none;
+  }
+  
+  nav ul li ul li:hover { background: #000000; }
+  
+  nav a:hover { color: blue; }
+  
+  nav ul ul {
+    display: none;
+    position: absolute;
+    top: 60px;
+  }
+  
+  nav ul li:hover > ul { display: inherit; }
+  
+  nav ul ul li {
+    width: 170px;
+    float: none;
+    display: list-item;
+    position: relative;
+  }
+  
+  nav ul ul ul li {
+    position: relative;
+    top: -60px;
+    left: 170px;
+  }
+  
+  li > a:after { content: ' +'; }
+  
+  li > a:only-child:after { content: ''; }
+  
+  
+  /* Media Queries
+  --------------------------------------------- */
+  
+  @media all and (max-width : 768px) {
+  
+  #logo {
+    display: block;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    float: none;
+  }
+  
+  nav { margin: 0; }
+  
+  .toggle + a,
+   .menu { display: none; }
+  
+  .toggle {
+    display: block;
+    background-color: #254441;
+    padding: 0 20px;
+    color: #FFF;
+    font-size: 22px;
+    font-weight:bold;
+    line-height: 60px;
+    text-decoration: none;
+    border: none;
+  }
+  
+  .toggle:hover { background-color: #000000; }
+  
+  [id^=drop]:checked + ul { display: block; }
+  
+  nav ul li {
+    display: block;
+    width: 100%;
+  }
+  
+  nav ul ul .toggle,
+   nav ul ul a { padding: 0 40px; }
+  
+  nav ul ul ul a { padding: 0 80px; }
+  
+  nav a:hover,
+   nav ul ul ul a { background-color: #000000; }
+  
+  nav ul li ul li .toggle,
+   nav ul ul a { background-color: #212121; }
+  
+  nav ul ul {
+    float: none;
+    position: static;
+    color: #ffffff;
+  }
+  
+  nav ul ul li:hover > ul,
+  nav ul li:hover > ul { display: none; }
+  
+  nav ul ul li {
+    display: block;
+    width: 100%;
+  }
+  
+  nav ul ul ul li { position: static;
+  
+  }
+  }
+  
+  @media all and (max-width : 330px) {
+  
+  nav ul li {
+    display: block;
+    width: 94%;
+  }
+  
+  }
